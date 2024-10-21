@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>FileFolder</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <div class="container">
+
+
+      <div class="logo_container">
+        <img class="logo_icon" src="./asset/icon.png" alt="icon">
+        <img class="title_logo_icon" src="./asset/title.png" alt="title">
+      </div>
+
+      <span class="info_title">Сервис для взаимодействия с файлом расписания onAir</span>
+
+
+      <div class="input_container">
+
+        <div class="input_box">
+          <button class="input_btn" id="load_file">Загрузить</button>
+          <span class="input_title" id="title_file">Загрузите файл распсания .air</span>
+        </div>
+        <div class="input_status" id="info_file"></div>
+
+      </div>
+
+
+      <div class="input_container">
+
+        <div class="input_box">
+          <button class="input_btn" id="load_dist">Загрузить</button>
+          <span class="input_title" id="title_dist">Пусть до выходной папки</span>
+        </div>
+        <div class="input_status" id="info_dist"></div>
+
+      </div>
+
+
+      <button class="create_btn" id="create_btn">Создать</button>
+
+
+      <!-- <div class="progress_container" id="progress_container">
+        <div class="progress_input" id="progress_input">0</div>
+      </div> -->
+
+
+
+      <div class="status_info_text" id="status_info_text"></div>
+      <div class="status_download_text" id="status_download_text"></div>
+
+
+
+      <div class="info_program">производство ООО "Фирма БИС" 2024г.</div>
+    </div>
+
+  </body>
+  <script src="./rendered.js"></script>
+</html>

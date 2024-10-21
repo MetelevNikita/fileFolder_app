@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* logo */
+
+.logo_container {
+  width: 574px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.logo_icon {}
+
+
+.logo_icon:hover {
+  transform: scale(1.10);
+  transition: all 0.10s ease-in-out;
+}
+
+
+.title_logo_icon {}
+
+
+/* info */
+
+
+.info_title {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* input  */
+
+
+.input_container {
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.input_box {}
+
+
+.input_btn {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #4671AF;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.input_btn:active {
+  transform: scale(1.10);
+  transition: all 0.10s ease-in-out;
+}
+
+.input_title {
+  width: 50px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+
+.input_status {
+  margin-top: 20px;
+}
+
+
+/* create */
+
+
+.create_btn {
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  color: white;
+  background-color: #F96335;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.create_btn:active {
+  transform: scale(1.10);
+  transition: all 0.10s ease-in-out;
+
+}
+
+
+/* status */
+
+
+.file-loading-status {
+  margin-bottom: 20px;
+}
+
+
+.create_folder {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.files {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.uniq_Files {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+.status_download_text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+/* progress bar */
+
+
+.progress_container {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.progress_input {
+  width: 0%;
+  height: 30px;
+  background-color: #F96335;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.info_program {
+  text-align: center;
+  font-size: 10px;
+}
